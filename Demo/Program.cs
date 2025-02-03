@@ -107,8 +107,55 @@ namespace Demo
 
         #endregion
 
+        #region Q7)	Given an array, implement a function to remove duplicate elements from an array.
 
-    
+        //public static int[] RemoveDuplicates(int[] arr)
+        //{
+        //    int[] newarr = new int[arr.Length];
+
+        //    bool Found = false;
+        //    int counter = 0;
+        //    for (int i = 0; i < arr.Length; i++)
+        //    {
+        //        Found = false;
+        //        for (int j = 0; j < arr.Length; j++)
+        //        {
+        //            if (i == j) {
+        //                continue;
+        //            }
+
+        //            if (arr[i] == arr[j])
+        //            {
+        //                Found = true;
+        //                break;
+
+        //            }
+        //        }
+        //        if (!Found)
+        //        {
+
+        //            newarr[counter++] = arr[i];
+        //        }
+        //    }
+
+        //    int[] returnedArray = new int[counter];
+
+        //    for (int i = 0; i < counter; i++)
+        //    {
+        //        if (newarr[i] != 0)
+        //        {
+
+        //            returnedArray[i] = newarr[i];
+        //        }
+        //    }
+
+
+
+
+        //    return returnedArray;
+        //}
+        #endregion
+
 
 
         static void Main(string[] args)
@@ -199,8 +246,17 @@ namespace Demo
             #region Q6.	Given a number N and an array of N numbers. Determine if it's palindrome or not.
             //CheckForPalindrome(4);
             #endregion
+            #region Q7)	Given an array, implement a function to remove duplicate elements from an array.
+            //int[] x = RemoveDuplicates(new int[] { 1, 2, 3, 4, 2 });
 
-         
+            //foreach (int i in x)
+            //{
+            //    Console.WriteLine(i);
+            //}
+            #endregion
+
+
+
 
         }
     }
