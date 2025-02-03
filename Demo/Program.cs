@@ -257,7 +257,20 @@ namespace Demo
 
 
 
+            #region Q8)	 Given an array list , implement a function to remove all odd numbers from it.
+            //List<int> numbers = new List<int>(5) { 1, 2, 3, 4, 5 };
 
+            //List<int> result = new List<int>(5);
+            //for (int i = 0; i < numbers.Count; i++)
+            //{
+            //    if (numbers[i] % 2 == 0)
+            //        result.Add(numbers[i]);
+            //}
+            //foreach (int i in result)
+            //{
+            //    Console.Write($"{i} ");
+            //}
+            #endregion
         }
     }
 }
