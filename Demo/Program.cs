@@ -27,6 +27,51 @@ namespace Demo
         #endregion
 
 
+        #region 5.	Given an array  consists of  numbers with size N and number of queries, in each query you will be given an integer X, and you should print how many numbers in array that is greater than  X.
+        //public static void CheckForArrayQueries(int size, int noQ)
+        //{
+        //    int[] numbers = new int[size];
+        //    int[] quires = new int[noQ];
+        //    bool isParsed = false;
+        //    for (int i = 0; i < size; i++)
+        //    {
+        //        do
+        //        {
+        //            Console.Write($"Enter the {i + 1} element of the array: ");
+        //            isParsed = int.TryParse(Console.ReadLine(), out numbers[i]);
+        //        }
+        //        while (!isParsed);
+
+        //    }
+
+        //    for (int i = 0; i < noQ; i++)
+        //    {
+        //        do
+        //        {
+        //            Console.Write($"Enter the {i + 1} number of quires : ");
+        //            isParsed = int.TryParse(Console.ReadLine(), out quires[i]);
+        //        }
+        //        while (!isParsed);
+
+        //    }
+        //    int counter = 0;
+
+        //    for (int i = 0; i < quires.Length; i++)
+        //    {
+        //        counter = 0;
+        //        for (int j = 0; j < numbers.Length; j++)
+        //        {
+        //            if (quires[i] < numbers[j])
+        //                counter++;
+
+        //        }
+        //        Console.Write($"{counter} ");
+        //    }
+
+        //}
+        #endregion
+
+
 
 
         static void Main(string[] args)
@@ -106,11 +151,16 @@ namespace Demo
             //else {
             //    Console.WriteLine(x[firstApp]);
             //}
-        
+
 
             #endregion
 
-    
+            #region Q5)	Given an array  consists of  numbers with size N and number of queries, in each query you will be given an integer X, and you should print how many numbers in array that is greater than  X.
+            //CheckForArrayQueries(3, 3);
+
+            #endregion
+
+       
         }
     }
 }
