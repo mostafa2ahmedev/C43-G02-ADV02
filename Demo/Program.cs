@@ -23,7 +23,12 @@ namespace Demo
         //    }
 
         //}
+
         #endregion
+
+
+
+
         static void Main(string[] args)
         {
             #region  Q1)	You are given an ArrayList containing a sequence of elements. try to reverse the order of elements in the ArrayList in-place(in the same arrayList) without using the built-in Reverse. Implement a function that takes the ArrayList as input and modifies it to have the reversed order of elements.
@@ -69,6 +74,43 @@ namespace Demo
             //Console.WriteLine(fixedlist.Get(0));
             #endregion
 
+
+            #region Q4)	Given a string, find the first non-repeated character in it and return its index. If there is no such character, return -1. Hint you can use dictionary
+            //string x = "Helo Mstfa";
+            //int firstApp = -1;
+            //bool flag = false;
+            //for (int i = 0; i < x.Length; i++)
+            //{
+            //    flag = false;
+            //    for (int j = 0; j < x.Length; j++)
+            //    {
+            //        if (i == j) {
+            //            continue;
+            //        }
+            //        if (x[i] == x[j]) {
+            //            firstApp = j;
+            //            flag = true;
+            //            break;
+
+            //        }
+            //    }
+            //    if (flag) {
+            //        break;
+            //    }
+
+            //}
+            //if (firstApp == -1)
+            //{
+            //    Console.WriteLine(-1);
+            //}
+            //else {
+            //    Console.WriteLine(x[firstApp]);
+            //}
+        
+
+            #endregion
+
+    
         }
     }
 }
