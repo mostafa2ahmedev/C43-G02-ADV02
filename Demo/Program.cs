@@ -36,6 +36,26 @@ namespace Demo
             //    Console.Write($"{i} ");
             //}
             #endregion
+
+            #region Q2)	You are given a list of integers. Your task is to find and return a new list containing only the even numbers from the given list.
+
+            //List<int> numbers = new List<int>(5) { 1,2,3,4,5};
+
+            //List<int> result=new List<int>(5);
+            //for (int i = 0; i < numbers.Count; i++)
+            //{
+            //    if (numbers[i] %2 == 0)
+            //        result.Add(numbers[i]);
+            //}
+            //foreach (int i in result) {
+            //    Console.Write($"{i} ");
+            //}
+
+
+            #endregion
+
+
+
         }
     }
 }
