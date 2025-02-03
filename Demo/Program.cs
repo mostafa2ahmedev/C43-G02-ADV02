@@ -72,6 +72,43 @@ namespace Demo
         #endregion
 
 
+        #region Q6)	Given a number N and an array of N numbers. Determine if it's palindrome or not.
+
+        //public static void CheckForPalindrome(int n) {
+        //    int[] numbers = new int[n];
+
+        //    bool isParsed = false;
+        //    for (int i = 0; i < n; i++)
+        //    {
+        //        do
+        //        {
+        //            Console.Write($"Enter the {i + 1} element of the array: ");
+        //            isParsed = int.TryParse(Console.ReadLine(), out numbers[i]);
+        //        }
+        //        while (!isParsed);
+
+        //    }
+
+        //    bool notPalindrome=false;
+        //    for (int i = 0; i < (numbers.Length) / 2; i++)
+        //    {
+        //        if (numbers[i] != numbers[numbers.Length - 1 - i]) {
+        //            notPalindrome = true;
+        //            break;
+        //        }
+
+        //    }
+        //    if(notPalindrome)
+        //        Console.WriteLine("No");
+        //    else
+        //        Console.WriteLine("YES");
+
+        //}
+
+        #endregion
+
+
+    
 
 
         static void Main(string[] args)
@@ -159,8 +196,12 @@ namespace Demo
             //CheckForArrayQueries(3, 3);
 
             #endregion
+            #region Q6.	Given a number N and an array of N numbers. Determine if it's palindrome or not.
+            //CheckForPalindrome(4);
+            #endregion
 
-       
+         
+
         }
     }
 }
