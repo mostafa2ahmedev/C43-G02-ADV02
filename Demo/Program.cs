@@ -55,6 +55,19 @@ namespace Demo
             #endregion
 
 
+            #region 3.	implement a custom list called FixedSizeList<T> with a predetermined capacity. This list should not allow more elements than its capacity and should provide clear messages if one tries to exceed it or access invalid indices.
+
+
+            //FixedSizeList<int> fixedlist= new FixedSizeList<int> (5);
+
+            //fixedlist.Add (5);
+            //fixedlist.Add (5);
+            //fixedlist.Add (5);
+            //fixedlist.Add (5);
+            //fixedlist.Add (5);
+            //fixedlist.Add (5);
+            //Console.WriteLine(fixedlist.Get(0));
+            #endregion
 
         }
     }
